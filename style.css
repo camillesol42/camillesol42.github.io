@@ -12,6 +12,29 @@
     box-sizing: border-box;
 }
 
+.photo-cadre {
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px auto; 
+    padding: 0; 
+    border: 3px solid #333; 
+    background-color: #f0f0f0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    overflow: hidden; 
+}
+
+
+.photo-cadre img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:50%; 
+}
+
+
+
 body {
     font-family: var(--font-stack);
     color: var(--couleur-texte);
